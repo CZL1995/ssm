@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="test1@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="cake"/>
+    <schema id="3" parent="1" name="employee"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="jxnu"/>
+    <schema id="6" parent="1" name="mybatis"/>
+    <schema id="7" parent="1" name="mysql"/>
+    <schema id="8" parent="1" name="mysqlstudy"/>
+    <schema id="9" parent="1" name="mytext"/>
+    <schema id="10" parent="1" name="springhibernate"/>
+    <schema id="11" parent="1" name="ssh"/>
+    <schema id="12" parent="1" name="test"/>
+    <schema id="13" parent="1" name="test1">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <table id="14" parent="13" name="test1"/>
+    <column id="15" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <column id="16" parent="14" name="name">
+      <Position>2</Position>
+      <DataType>VARCHAR(22)|12</DataType>
+    </column>
+  </database-model>
+</dataSource>

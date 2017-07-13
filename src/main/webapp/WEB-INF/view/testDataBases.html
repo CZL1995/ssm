@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/ssm/resources/js/jquery-1-11-3.js"></script>
+
+
+</head>
+<body>
+<button id="cake">cake</button>
+<button id="test1">test1</button>
+</body>
+
+<script>
+    $("#cake").click(function () {
+
+        $.ajax({
+
+            url: "/ssm/test/cake",
+            data: {},
+            type: "POST",
+            success: function (data) {
+                alert("cake");
+            },
+            })
+    })
+    $("#test1").click(function () {
+
+        $.ajax({
+
+            url: "/ssm/test/test1",
+            data: {},
+            type: "POST",
+            success: function (data) {
+                alert("test1");
+            },
+            })
+    })
+
+
+
+</script>
+</html>
